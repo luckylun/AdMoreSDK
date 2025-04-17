@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = '1.0.0'
   s.summary      = 'A closed-source advertising SDK for iOS.'
   s.description  = 'AdMoreSDK is a private advertising framework distributed as a precompiled binary.'
-  s.homepage     = 'http://git.zaibiao.cn:8089/admoreios/iosAdSource'
+  s.homepage     = 'https://github.com/luckylun/AdMoreSDK'
   s.license      = { :type => 'Commercial', :text => 'Copyright © 2025 SCMAdSDK. All rights reserved.' }
   s.author       = { 'luckylun' => '598922488@qq.com' } # 可选
   s.platform     = :ios, '11.0'
