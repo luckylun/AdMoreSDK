@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '11.0'
 
   # ⚠️ 修改为你的 .framework 真实 zip 下载地址
-  s.source       = { :http => 'https://github.com/luckylun/AdMoreSDK/releases/download/1.0.1/AdMoreSDK.xcframework.zip' }
+  s.source       = { :http => 'https://github.com/luckylun/AdMoreSDK/releases/download/1.0.0/AdMoreSDK.xcframework.zip' }
 
   s.vendored_frameworks = 'AdMoreSDK.xcframework'
 
