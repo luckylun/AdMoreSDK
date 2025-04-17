@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # ⚠️ 修改为你的 .framework 真实 zip 下载地址
   s.source       = { :http => 'https://github.com/luckylun/AdMoreSDK/releases/download/1.0.0/AdMoreSDK.xcframework.zip' }
 
-  s.vendored_frameworks = 'AdMoreSDK.framework'
+  s.vendored_frameworks = 'AdMoreSDK.xcframework'
 
   # 如果有使用系统库，请在这里添加
   s.frameworks = 'UIKit', 'Foundation'
