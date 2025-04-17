@@ -18,4 +18,15 @@ Pod::Spec.new do |s|
 
   # 如果支持 Swift，建议加上
   s.requires_arc = true
+
+  # 添加依赖项
+  s.dependency 'GDTMobSDK', '4.15.22'
+  s.dependency 'Ads-CN-Beta/BUAdSDK', '6.7.0.3'
+  s.dependency 'Ads-CN-Beta/CSJMediation', '6.7.0.3'
+  s.dependency 'KSAdSDK', '3.3.74'
+  s.dependency 'BaiduMobAdSDK', '5.373'
+  s.dependency 'JADYun', '2.6.8'
+  s.dependency 'JADYunMotion', '2.6.8'
+  s.dependency 'QMAdSDK', '1.3.2'
+  
 end
