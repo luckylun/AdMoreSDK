@@ -1,6 +1,0 @@
-framework module AdMoreSDK {
-  umbrella header "AdMoreSDK.h"
-  export *
-
-  module * { export * }
-}
