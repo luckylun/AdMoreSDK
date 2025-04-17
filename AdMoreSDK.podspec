@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'AdMoreSDK'
-  s.version      = '1.0.0'
+  s.version      = '1.0.2'
   s.summary      = 'A closed-source advertising SDK for iOS.'
   s.description  = 'AdMoreSDK is a private advertising framework distributed as a precompiled binary.'
   s.homepage     = 'https://github.com/luckylun/SCMAdSDK'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '11.0'
 
   # ⚠️ 修改为你的 .framework 真实 zip 下载地址
-  s.source       = { :http => 'https://github.com/luckylun/AdMoreSDK/releases/download/1.0.0/AdMoreSDK.xcframework.zip' }
+  s.source       = { :http => 'https://github.com/luckylun/AdMoreSDK/releases/download/1.0.2/AdMoreSDK.xcframework.zip' }
 
   s.vendored_frameworks = 'AdMoreSDK.xcframework'
 
