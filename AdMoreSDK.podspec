@@ -20,18 +20,20 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # 添加依赖项
-  s.dependency 'GDTMobSDK', '4.15.22'
+  
   #s.dependency 'Ads-CN-Beta/BUAdSDK', '6.7.0.3'
   #s.dependency 'Ads-CN-Beta/CSJMediation', '6.7.0.3'
-  s.dependency 'KSAdSDK', '3.3.74'
   #s.dependency 'BaiduMobAdSDK', '5.373'
   #s.dependency 'JADYun', '2.6.8'
   #s.dependency 'JADYunMotion', '2.6.8'
   #s.dependency 'QMAdSDK', '1.3.2'
 
+
+  s.dependency 'GDTMobSDK', '4.15.22'
   s.dependency 'UBiXMediationSDK', '2.8.0.01'
   s.dependency 'UBiXMOneAdSDK','1.0.3'
-  
+  s.dependency 'KSAdSDK', '3.3.74'
+
   s.dependency 'UBiXMYoushiAdapter', '1.0.3.0'
   s.dependency 'UBiXMJDAdapter', '2.6.8.1'
   s.dependency 'UBiXMBaiduAdapter', '5.38.0'
