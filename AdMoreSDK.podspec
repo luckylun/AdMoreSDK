@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'AdMoreSDK'
-  s.version      = '1.0.0'
+  s.version      = '1.0.7'
   s.summary      = 'A closed-source advertising SDK for iOS.'
   s.description  = 'AdMoreSDK is a private advertising framework distributed as a precompiled binary.'
   s.homepage     = 'https://github.com/luckylun/AdMoreSDK'
@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '11.0'
 
   # ⚠️ 修改为你的 .framework 真实 zip 下载地址
-  s.source       = { :http => 'https://github.com/luckylun/AdMoreSDK/releases/download/1.0.3/AdMoreSDK.xcframework.zip' }
+  s.source       = { :http => 'https://github.com/luckylun/AdMoreSDK/releases/download/1.0.7/AdMoreSDK.framework.zip' }
 
-  s.vendored_frameworks = 'AdMoreSDK.xcframework'
+  s.vendored_frameworks = 'AdMoreSDK.framework'
 
   # 如果有使用系统库，请在这里添加
   s.frameworks = 'UIKit', 'Foundation'
@@ -20,19 +20,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # 添加依赖项
-  
-  #s.dependency 'Ads-CN-Beta/BUAdSDK', '6.7.0.3'
-  #s.dependency 'Ads-CN-Beta/CSJMediation', '6.7.0.3'
-  #s.dependency 'BaiduMobAdSDK', '5.373'
-  #s.dependency 'JADYun', '2.6.8'
-  #s.dependency 'JADYunMotion', '2.6.8'
-  #s.dependency 'QMAdSDK', '1.3.2'
-
-
-  s.dependency 'GDTMobSDK', '4.15.22'
-  s.dependency 'UBiXMediationSDK', '2.8.0.01'
-  s.dependency 'UBiXMOneAdSDK','1.0.3'
-  s.dependency 'KSAdSDK', '3.3.74'
 
   s.dependency 'UBiXMYoushiAdapter', '1.0.3.0'
   s.dependency 'UBiXMJDAdapter', '2.6.8.1'
